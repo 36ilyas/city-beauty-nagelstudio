@@ -80,14 +80,10 @@
 
   /* ------------------------------------------------------------- Header */
   var header = $('#header');
-  var actionbar = $('#actionbar');
-  var lastY = window.scrollY;
 
   function onScroll() {
     var y = window.scrollY;
     if (header) header.classList.toggle('is-stuck', y > 12);
-    if (actionbar) actionbar.classList.toggle('is-visible', y > 420);
-    lastY = y;
   }
   onScroll();
 
