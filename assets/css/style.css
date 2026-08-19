@@ -992,7 +992,7 @@ body.nav-open { overflow: hidden; }
   .topbar__inner { justify-content: center; text-align: center; }
   .topbar__left { display: none; }
   .actionbar { display: flex; }
-  main { padding-bottom: 72px; }
+  .footer__bottom { padding-bottom: 104px; }
   .ticklist { grid-template-columns: minmax(0, 1fr); }
   .hours-card { border-radius: 26px; }
   .gallery__item:nth-child(even) { margin-top: 0; }
