@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://36ilyas.github.io/city-beauty-nagelstudio/sitemap.xml
